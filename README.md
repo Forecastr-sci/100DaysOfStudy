@@ -5,7 +5,7 @@ Current day: 0/100
 |Date|Time Studied (mins)|Details|
 |-|-|-|
 |2024-05-30|180|Solved some easy tasks on boot.dev. Attempted solving [String Subsequence](https://www.geeksforgeeks.org/problems/find-number-of-times-a-string-occurs-as-a-subsequence3020) problem from GeeksForGeeks (failed). Watched 2 videos on dynamic programming, since in the discussion a lot of people mentioned this particular approach. Still a bit complicated for me for now|
-|2024-05-31|||
+|2024-05-31|130|Watched freecodecamp video on dynamic programming. Implemented optimized search of nth member of fibonacci sequence. On a side note implemented Bubble search as one of the most basic algorithms. All is done in Python|
 |2024-06-01|||
 |2024-06-02|||
 |2024-06-03|||
