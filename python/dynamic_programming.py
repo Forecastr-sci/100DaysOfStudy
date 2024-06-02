@@ -98,30 +98,73 @@ def how_sum_dp(s, val):
         if s in memo:
             return memo[s]
 
-        memo[s] = None
         for n in val:
             rem = s - n
-            remResult: list | None = how_sum_dp(rem, val)
+            remResult: list | None = helper(rem, val, memo)
 
             if remResult is not None:
                 memo[s] = remResult + [n]
-                break
+                return memo[s]
 
+        memo[s] = None
+        return memo[s]
+
+    return helper(s, val, memo)
+
+
+def best_sum_dp(s, val):
+    memo = {}
+
+    def helper(s, val, memo):
+        if s == 0:
+            return []
+        if s < 0:
+            return None
+
+        if s in memo:
+            return memo[s]
+
+        shortest = None
+        for n in val:
+            rem = s - n
+            remResult: list | None = helper(rem, val, memo)
+
+            if remResult is not None:
+                possible_result = remResult + [n]
+                if shortest is None or len(possible_result) < len(shortest):
+                    shortest = possible_result
+
+        if shortest is None:
+            memo[s] = None
+        else:
+            memo[s] = shortest
         return memo[s]
 
     return helper(s, val, memo)
 
 
 if __name__ == "__main__":
-    match sys.argv[1]:
+    mode, *args = sys.argv[1:]
+    args = [int(i) for i in args]
+    match mode:
         case "fib":
-            print(better_fibbonaci(int(sys.argv[2])))
+            print(better_fibbonaci(args[0]))
         case "grid":
-            print(grid_traveller_dp(int(sys.argv[2]), int(sys.argv[3])))
+            if len(args) < 2:
+                sys.exit(f"Usage: {mode} <GRID_WIDTH> <GRID_HEIGHT>")
+            print(grid_traveller_dp(args[0], args[1]))
         case "cansum":
-            values: list = [2, 3]
-            print(f"we can only use following values: {values}")
-            print(can_sum_dp(int(sys.argv[2]), values))
+            if len(args) < 2:
+                sys.exit(f"Usage: {mode} <SUM> <VALUE(S)>")
+            sum, *values = args
+            print(can_sum_dp(sum, values))
         case "howsum":
-            values: list = [2, 3]
-            print(how_sum_dp(int(sys.argv[2]), values))
+            if len(args) < 2:
+                sys.exit(f"Usage: {mode} <SUM> <VALUE(S)>")
+            sum, *values = args
+            print(how_sum_dp(sum, values))
+        case "bestsum":
+            if len(args) < 2:
+                sys.exit(f"Usage: {mode} <SUM> <VALUE(S)>")
+            sum, *values = args
+            print(best_sum_dp(sum, values))
