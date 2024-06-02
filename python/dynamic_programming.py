@@ -143,6 +143,31 @@ def best_sum_dp(s, val):
     return helper(s, val, memo)
 
 
+def count_sum_dp(s, val):
+    memo = {}
+
+    def helper(s, val, memo):
+        if s == 0:
+            return 1
+        if s < 0:
+            return 0
+
+        if s in memo:
+            return memo[s]
+
+        memo[s] = 0
+        for n in val:
+            rem = s - n
+            remResult: list | None = helper(rem, val, memo)
+
+            if remResult:
+                memo[s] += remResult
+
+        return memo[s]
+
+    return helper(s, val, memo)
+
+
 if __name__ == "__main__":
     mode, *args = sys.argv[1:]
     args = [int(i) for i in args]
@@ -168,3 +193,8 @@ if __name__ == "__main__":
                 sys.exit(f"Usage: {mode} <SUM> <VALUE(S)>")
             sum, *values = args
             print(best_sum_dp(sum, values))
+        case "countsum":
+            if len(args) < 2:
+                sys.exit(f"Usage: {mode} <SUM> <VALUE(S)>")
+            sum, *values = args
+            print(count_sum_dp(sum, values))
