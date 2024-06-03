@@ -8,7 +8,7 @@ Current day: 0/100
 |2024-05-31|130|Watched freecodecamp video on dynamic programming. Implemented optimized search of nth member of fibonacci sequence. On a side note implemented Bubble search as one of the most basic algorithms. All is done in Python|
 |2024-06-01|240|Implemented Grid Traversing variants and CanSum in Python (yesterday after report). Implemented HowSum in Python. Spent a lot of time tweaking Neovim config, stumbled upon some problem with non-working autocmd. Also enrolled in Build your own shell project from Codecrafters.|
 |2024-06-02|200|Implemented BestSum and CountSum problems in Python. Repeated again the fibonacci sequence, but this time in Lua. Since today I cloned my GH repo on local machine, so README edits will be done from here. In addition, some snippets of my code will be also uploaded here.|
-|2024-06-03|||
+|2024-06-03|80|I had a quite low energy day today so I only did some easy learning in boot.dev track. In the free version after some time you lose ability to do tasks and check your answers on their website. However, they give enough information for you to test it yourself. So i got a new repo up and running where I will do the walkthrough of this course and share all solutions I do in it (except for quizzes, because those are not a real programming). Here is the [link for the repo](https://github.com/Forecastr-sci/bootdev-walkthough), btw|
 |2024-06-04|||
 |2024-06-05|||
 |2024-06-06|||
