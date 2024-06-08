@@ -1,6 +1,6 @@
 # 100DaysOfStudy
 Repo for tracking my progress in #100DaysOfStudy Challenge (2024)
-Current day: 7/100
+Current day: 8/100
 
 |Date|Time Studied (mins)|Details|
 |-|-|-|
@@ -12,7 +12,7 @@ Current day: 7/100
 |2024-06-04|80|I came up with the idea of the web application and outlined its main features, but I lack skills in HTML, CSS and JS. So I decided to sprint through a course on WebDevelopment from [Frontend Masters](https://frontendmasters.com/courses/web-development-v3/). Started to do homepage (not for actual use, for practice + I have it as an assignment for CS50x course).|
 |2024-06-05||Skipped day|
 |2024-06-06|100|Finised chapter 3 on boot.dev Python course (Functions)|
-|2024-06-07|||
+|2024-06-07|300+|Did my first application with a real-life goal - an XML parser for my colleague from the lab. I took my time to try make it a more proper CLI app, that your usual tutorial project. I am proud of my current result, but there's still a big room for improvement!|
 |2024-06-08|||
 |2024-06-09|||
 |2024-06-10|||
