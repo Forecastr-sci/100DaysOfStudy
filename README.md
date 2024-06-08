@@ -1,6 +1,6 @@
 # 100DaysOfStudy
 Repo for tracking my progress in #100DaysOfStudy Challenge (2024)
-Current day: 8/100
+Current day: 9/100
 
 |Date|Time Studied (mins)|Details|
 |-|-|-|
@@ -13,7 +13,7 @@ Current day: 8/100
 |2024-06-05||Skipped day|
 |2024-06-06|100|Finised chapter 3 on boot.dev Python course (Functions)|
 |2024-06-07|300+|Did my first application with a real-life goal - an XML parser for my colleague from the lab. I took my time to try make it a more proper CLI app, that your usual tutorial project. I am proud of my current result, but there's still a big room for improvement!|
-|2024-06-08|||
+|2024-06-08|120|Continued with the development of that R project. This time I successfully changed the script so it works fine in both interactive (console) and terminal modes. Also got much more familiar with looking in documentation to find the answers to my questions about language.|
 |2024-06-09|||
 |2024-06-10|||
 |2024-06-11|||
