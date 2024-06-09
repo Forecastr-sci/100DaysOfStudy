@@ -1,6 +1,6 @@
 # 100DaysOfStudy
 Repo for tracking my progress in #100DaysOfStudy Challenge (2024)
-Current day: 9/100
+Current day: 10/100
 
 |Date|Time Studied (mins)|Details|
 |-|-|-|
@@ -14,7 +14,7 @@ Current day: 9/100
 |2024-06-06|100|Finised chapter 3 on boot.dev Python course (Functions)|
 |2024-06-07|300+|Did my first application with a real-life goal - an XML parser for my colleague from the lab. I took my time to try make it a more proper CLI app, that your usual tutorial project. I am proud of my current result, but there's still a big room for improvement!|
 |2024-06-08|120|Continued with the development of that R project. This time I successfully changed the script so it works fine in both interactive (console) and terminal modes. Also got much more familiar with looking in documentation to find the answers to my questions about language.|
-|2024-06-09|||
+|2024-06-09|100|Didn't do anything particularly related to programming in general, but watched couple of videos on Elixir, Gleam and Lua (for some reason). Planned to utilize pipe operator (|>) in my R program to make it look prettier. Also, spent a ton of time correctly setting up starship prompt (got tired of oh-my-bash + want my prompt to be cross-platform) and installing nix package manager, to which I plan to migrate majority of programs installed with brew. Later probably will try to make a configuration, preserving my entire environment, since sometimes I like to break stuff. Also, since I enjoy trying a bunch of different languages, nix shell is very good feature for me to not clutter my entire pc and just use compilers/interpreters when I need them.|
 |2024-06-10|||
 |2024-06-11|||
 |2024-06-12|||
