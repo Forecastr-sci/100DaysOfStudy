@@ -10,17 +10,17 @@ Current day: 10/100
 |2024-06-02|200|Implemented BestSum and CountSum problems in Python. Repeated again the fibonacci sequence, but this time in Lua. Since today I cloned my GH repo on local machine, so README edits will be done from here. In addition, some snippets of my code will be also uploaded here.|
 |2024-06-03|80|I had a quite low energy day today so I only did some easy learning in boot.dev track. In the free version after some time you lose ability to do tasks and check your answers on their website. However, they give enough information for you to test it yourself. So i got a new repo up and running where I will do the walkthrough of this course and share all solutions I do in it (except for quizzes, because those are not a real programming). Here is the [link for the repo](https://github.com/Forecastr-sci/bootdev-walkthough), btw|
 |2024-06-04|80|I came up with the idea of the web application and outlined its main features, but I lack skills in HTML, CSS and JS. So I decided to sprint through a course on WebDevelopment from [Frontend Masters](https://frontendmasters.com/courses/web-development-v3/). Started to do homepage (not for actual use, for practice + I have it as an assignment for CS50x course).|
-|2024-06-05||Skipped day|
+|2024-06-05|0|Skipped day|
 |2024-06-06|100|Finised chapter 3 on boot.dev Python course (Functions)|
 |2024-06-07|300+|Did my first application with a real-life goal - an XML parser for my colleague from the lab. I took my time to try make it a more proper CLI app, that your usual tutorial project. I am proud of my current result, but there's still a big room for improvement!|
 |2024-06-08|120|Continued with the development of that R project. This time I successfully changed the script so it works fine in both interactive (console) and terminal modes. Also got much more familiar with looking in documentation to find the answers to my questions about language.|
 |2024-06-09|100|Didn't do anything particularly related to programming in general, but watched couple of videos on Elixir, Gleam and Lua (for some reason). Planned to utilize pipe operator (|>) in my R program to make it look prettier. Also, spent a ton of time correctly setting up starship prompt (got tired of oh-my-bash + want my prompt to be cross-platform) and installing nix package manager, to which I plan to migrate majority of programs installed with brew. Later probably will try to make a configuration, preserving my entire environment, since sometimes I like to break stuff. Also, since I enjoy trying a bunch of different languages, nix shell is very good feature for me to not clutter my entire pc and just use compilers/interpreters when I need them.|
-|2024-06-10||Skipped day|
+|2024-06-10|0|Skipped day|
 |2024-06-11|60|Some easy excercises in Mimo and also returned to doing small code excercises on [exercism.org](https://exercism.org). Today did a Python program determining the nature of triangle (isoceles, equilateral or not) and exercism analog for Fizz Buzz problem.|
-|2024-06-12|||
-|2024-06-13|||
-|2024-06-14|||
-|2024-06-15|||
+|2024-06-12|240|Watched CS50 Lectures 0 & 1|
+|2024-06-13|240|Watched CS50 Lectures 2 & 3. Revised usage of pointers and memory management.|
+|2024-06-14|150|Watched CS50 Lecture 4. Revised common data structures. Solved 2 problems in Python track on [exercism.org](https://exercism.org)|
+|2024-06-15|0|Skipped day|
 |2024-06-16|||
 |2024-06-17|||
 |2024-06-18|||
