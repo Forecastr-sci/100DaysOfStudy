@@ -21,7 +21,7 @@ Current day: 10/100
 |2024-06-13|240|Watched CS50 Lectures 2 & 3. Revised usage of pointers and memory management.|
 |2024-06-14|150|Watched CS50 Lecture 4. Revised common data structures. Solved 2 problems in Python track on [exercism.org](https://exercism.org)|
 |2024-06-15|0|Skipped day|
-|2024-06-16|||
+|2024-06-16|120|Implemented bare minimum of linked list in C. for now it can prepend integers and display the whole list. I will improve it later, giving ability to reverse and insert remove values from arbitrary positions and then will try to use this structure to implement something more useful, like stack or a queue|
 |2024-06-17|||
 |2024-06-18|||
 |2024-06-19|||
